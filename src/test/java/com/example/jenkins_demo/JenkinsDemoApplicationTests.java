@@ -13,7 +13,7 @@ class JenkinsDemoApplicationTests {
 	public static Logger logger = org.slf4j.LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 
 	@Test
-	contextLoads() {
+	void contextLoads() {
 		logger.info("Jenkins Demo Application Test Initialized");
 		assertEquals(true, true);
 	}
