@@ -15,8 +15,7 @@ class JenkinsDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Jenkins Demo Application Test Initialized");
-		assertEquals(true, true);	
-		logger.info("Jenkins Demo Application Test Completed");
+		assertEquals(true, true);
 	}
 
 }
